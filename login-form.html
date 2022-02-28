@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            background-color: orange;
+
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            /* background-color: orange; */
+            /* width: 550px;
+            height: 300px; */
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+
+        .login-form input,
+        button {
+            font-size: 1.3em;
+            text-transform: capitalize;
+            margin-top: 10px;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px;
+            border: none;
+            font-weight: bold;
+        }
+
+        .login-form button {
+            background-color: rgb(16, 216, 42);
+            color: whitesmoke;
+
+        }
+
+        .login-form h1 {
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form action="" class="login-form">
+            <h1>login form</h1>
+            <input type="email" name="email" placeholder="Your Email" id="" required>
+            <input type="password" name="pass" placeholder="Your Password" id="" required>
+            <!-- <button type="submit">login</button> -->
+            <button type="submit">login</button>
+        </form>
+    </section>
+</body>
+
+</html>
